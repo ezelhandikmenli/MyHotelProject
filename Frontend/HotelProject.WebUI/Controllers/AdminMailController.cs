@@ -2,7 +2,10 @@
 using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Mvc;
 using MimeKit;
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace HotelProject.WebUI.Controllers
 {
@@ -18,26 +21,28 @@ namespace HotelProject.WebUI.Controllers
         {
             MimeMessage mimeMessage = new MimeMessage();
 
-            MailboxAddress mailboxAddressFrom = new MailboxAddress("HotelierAdmin","Burası bizim mailimiz");
+            MailboxAddress mailboxAddressFrom = new MailboxAddress("HotelierAdmin", "dikmenlioglue@gmail.com");
             mimeMessage.From.Add(mailboxAddressFrom);
 
-            MailboxAddress mailboxAddressTo = new MailboxAddress("User","model.ReceiverMail");
+            MailboxAddress mailboxAddressTo = new MailboxAddress("User", model.ReceiverMail);
             mimeMessage.To.Add(mailboxAddressTo);
 
             var bodyBuilder = new BodyBuilder();
             bodyBuilder.TextBody = model.Body;
             mimeMessage.Body = bodyBuilder.ToMessageBody();
 
-            mimeMessage.Subject = model.Subject;    
+            mimeMessage.Subject = model.Subject;
 
             SmtpClient client = new SmtpClient();
-            client.Connect("smtp.gmail.com",587,false);
-            client.Authenticate("mail","password key");
+            client.Connect("smtp.gmail.com", 587, false);
+            client.Authenticate("dikmenlioglue@gmail.com", "pihavfqbhdqtsftl");
             client.Send(mimeMessage);
             client.Disconnect(true);
 
+            //Gönderilen Mailin Veri Tabanına Kaydedilmesi.
+
+
             return View();
         }
-
     }
 }
