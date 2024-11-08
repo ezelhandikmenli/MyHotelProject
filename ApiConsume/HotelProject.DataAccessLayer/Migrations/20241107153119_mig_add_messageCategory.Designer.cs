@@ -4,14 +4,16 @@ using HotelProject.DataAccessLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HotelProject.DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20241107153119_mig_add_messageCategory")]
+    partial class mig_add_messageCategory
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -212,7 +214,10 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<string>("Message")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("MessageCategoryID")
+                    b.Property<int?>("MessageCategoryID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MesssageCategoryID")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -525,9 +530,7 @@ namespace HotelProject.DataAccessLayer.Migrations
                 {
                     b.HasOne("HotelProject.EntityLayer.Concrete.MessageCategory", "MessageCategory")
                         .WithMany("Contacts")
-                        .HasForeignKey("MessageCategoryID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MessageCategoryID");
 
                     b.Navigation("MessageCategory");
                 });
