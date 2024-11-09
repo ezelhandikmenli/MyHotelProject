@@ -1,4 +1,5 @@
 ﻿using HotelProject.DataAccessLayer.Concrete;
+using HotelProject.EntityLayer.Concrete;
 using HotelProject.WebUI.Dtos.LoginDto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
