@@ -19,7 +19,7 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult SubscribeList()
         {
-            var values = _subscribeService.TGetList();
+            var values = _subscribeService.TUserListWorkLocation();
             return Ok(values);
         }
         [HttpPost]

@@ -26,7 +26,7 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult InboxList()
         {
-            var values = _contactService.TGetList();
+            var values = _contactService.TUserListWorkLocation();
             return Ok(values);
         }
         [HttpGet("{id}")]

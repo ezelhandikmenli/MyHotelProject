@@ -28,7 +28,7 @@ namespace HotelProject.BusinessLayer.Manager
             return _messageCategoryDal.GetByID(id);
         }
 
-        public List<MessageCategory> TGetList()
+        public List<MessageCategory> TUserListWorkLocation()
         {
            return _messageCategoryDal.GetList();
         }

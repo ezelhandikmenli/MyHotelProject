@@ -28,7 +28,7 @@ namespace HotelProject.BusinessLayer.Manager
             return _sendMessageDal.GetByID(id);
         }
 
-        public List<SendMessage> TGetList()
+        public List<SendMessage> TUserListWorkLocation()
         {
             return _sendMessageDal.GetList();
         }

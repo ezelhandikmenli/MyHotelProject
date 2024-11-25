@@ -18,7 +18,7 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult WorkLocationList()
         {
-            var values = _workLocationService.TGetList();
+            var values = _workLocationService.TUserListWorkLocation();
             return Ok(values);
         }
         [HttpPost]

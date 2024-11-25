@@ -19,7 +19,7 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult SendMessageList()
         {
-            var values = _sendMessageService.TGetList();
+            var values = _sendMessageService.TUserListWorkLocation();
             return Ok(values);
         }
         [HttpPost]

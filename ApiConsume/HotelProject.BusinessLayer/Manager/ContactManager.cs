@@ -33,7 +33,7 @@ namespace HotelProject.BusinessLayer.Manager
             return _contactDal.GetContactCount();
         }
 
-        public List<Contact> TGetList()
+        public List<Contact> TUserListWorkLocation()
         {
             return _contactDal.GetList();
         }

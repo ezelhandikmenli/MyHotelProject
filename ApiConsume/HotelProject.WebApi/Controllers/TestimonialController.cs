@@ -19,7 +19,7 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult TestimonialList()
         {
-            var values = _testimonialService.TGetList();
+            var values = _testimonialService.TUserListWorkLocation();
             return Ok(values);
         }
         [HttpPost]

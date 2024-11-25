@@ -28,7 +28,7 @@ namespace HotelProject.BusinessLayer.Manager
           return   _workLocationDal.GetByID(id);
         }
 
-        public List<WorkLocation> TGetList()
+        public List<WorkLocation> TUserListWorkLocation()
         {
             return _workLocationDal.GetList();
         }

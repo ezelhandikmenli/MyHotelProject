@@ -29,7 +29,7 @@ namespace HotelProject.BusinessLayer.Manager
            return _subscribeDal.GetByID(id);
         }
 
-        public List<Subscribe> TGetList()
+        public List<Subscribe> TUserListWorkLocation()
         {
             return _subscribeDal.GetList();
         }

@@ -18,7 +18,7 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult AboutList()
         {
-            var values = _aboutService.TGetList();
+            var values = _aboutService.TUserListWorkLocation();
             return Ok(values);
         }
         [HttpPost]

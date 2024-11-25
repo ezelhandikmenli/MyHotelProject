@@ -28,7 +28,7 @@ namespace HotelProject.BusinessLayer.Manager
            return _testimonialDal.GetByID(id);
         }
 
-        public List<Testimonial> TGetList()
+        public List<Testimonial> TUserListWorkLocation()
         {
             return _testimonialDal.GetList();
         }
