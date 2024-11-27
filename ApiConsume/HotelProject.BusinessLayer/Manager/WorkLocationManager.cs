@@ -42,5 +42,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             _workLocationDal.Update(t);
         }
+
+        public List<WorkLocation> TGetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

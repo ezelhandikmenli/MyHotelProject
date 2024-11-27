@@ -42,5 +42,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             _messageCategoryDal.Update(t);
         }
+
+        public List<MessageCategory> TGetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

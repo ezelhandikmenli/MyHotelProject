@@ -47,5 +47,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             _contactDal.Update(t);
         }
+
+        public List<Contact> TGetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

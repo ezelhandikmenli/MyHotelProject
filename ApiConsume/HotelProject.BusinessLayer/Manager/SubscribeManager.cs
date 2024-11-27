@@ -43,5 +43,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
            _subscribeDal.Update(t);
         }
+
+        public List<Subscribe> TGetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

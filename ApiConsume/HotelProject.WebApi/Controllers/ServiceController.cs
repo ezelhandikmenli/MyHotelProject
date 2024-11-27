@@ -9,9 +9,9 @@ namespace HotelProject.WebApi.Controllers
     [ApiController]
     public class ServiceController : ControllerBase
     {
-        private readonly IServiceService _serviceService;
+        private readonly IGenericService _serviceService;
 
-        public ServiceController(IServiceService serviceService)
+        public ServiceController(IGenericService serviceService)
         {
             _serviceService = serviceService;
         }

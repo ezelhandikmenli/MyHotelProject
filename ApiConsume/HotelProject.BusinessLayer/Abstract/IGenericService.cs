@@ -12,6 +12,7 @@ namespace HotelProject.BusinessLayer.Abstract
         void TDelete(T t);
         void TUpdate(T t);
         List<T> TUserListWorkLocation();
+        List<T> TGetList();
         T TGetByID(int id);
     }
 }

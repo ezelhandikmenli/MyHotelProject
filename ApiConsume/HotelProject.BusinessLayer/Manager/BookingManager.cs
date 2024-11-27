@@ -52,5 +52,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             _bookingDal.Update(t);
         }
+
+        public List<Booking> TGetList()
+        {
+            return _bookingDal.GetList();
+        }
     }
 }

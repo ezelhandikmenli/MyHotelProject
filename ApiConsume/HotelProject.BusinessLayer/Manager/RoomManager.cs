@@ -45,5 +45,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             _roomDal.Update(t);
         }
+
+        public List<Room> TGetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

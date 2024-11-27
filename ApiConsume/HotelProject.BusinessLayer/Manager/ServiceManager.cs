@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.BusinessLayer.Manager
 {
-    public class ServiceManager : IServiceService
+    public class ServiceManager : IGenericService
     {
         private readonly IServicesDal _servicesDal;
 
@@ -41,6 +41,11 @@ namespace HotelProject.BusinessLayer.Manager
         public void TUpdate(Service t)
         {
             _servicesDal.Update(t);
+        }
+
+        public List<Service> TGetList()
+        {
+            return _servicesDal.GetList();
         }
     }
 }

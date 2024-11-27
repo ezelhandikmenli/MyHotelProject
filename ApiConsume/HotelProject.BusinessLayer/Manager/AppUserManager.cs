@@ -17,6 +17,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             _appUserDal = appUserDal;
         }
+        public List<AppUser> TGetList()
+        {
+            return _appUserDal.GetList();
+        }
 
         public void TDelete(AppUser t)
         {
@@ -46,6 +50,11 @@ namespace HotelProject.BusinessLayer.Manager
         public List<AppUser> TUserListWithWorkLocation()
         {
             return _appUserDal.UserListWithWorkLocation();
+        }
+
+        public List<AppUser> TUserListWithWorkLocations()
+        {
+            return _appUserDal.UserListWithWorkLocations();
         }
     }
 }

@@ -36,7 +36,7 @@ namespace HotelProject.WebApi
             services.AddScoped<IStaffService,StaffManager>();
 
             services.AddScoped<IServicesDal, EfServiceDal>();
-            services.AddScoped<IServiceService, ServiceManager>();
+            services.AddScoped<IGenericService, ServiceManager>();
 
             services.AddScoped<IRoomDal, EfRoomDal>();
             services.AddScoped<IRoomService, RoomManager>();

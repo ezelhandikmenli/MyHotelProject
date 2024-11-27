@@ -42,5 +42,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             _testimonialDal.Update(t);
         }
+
+        public List<Testimonial> TGetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
