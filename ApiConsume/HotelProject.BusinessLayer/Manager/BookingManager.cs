@@ -57,5 +57,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             return _bookingDal.GetList();
         }
+
+        public int TGetBookingCount()
+        {
+            return _bookingDal.GetBookingCount();
+        }
     }
 }

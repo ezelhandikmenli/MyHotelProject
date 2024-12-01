@@ -9,6 +9,7 @@
         public string Country { get; set; }
         public string Gender { get; set; }
         public string WorkLocationName { get; set; }
-        public string WorkLocationID { get; set; }
+
+        public int WorkLocationID { get; set; }
     }
 }

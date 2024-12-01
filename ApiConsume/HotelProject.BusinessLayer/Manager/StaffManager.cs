@@ -47,5 +47,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             throw new NotImplementedException();
         }
+
+        public int TGetStaffCount()
+        {
+            return _staffDal.GetStaffCount();
+        }
     }
 }
