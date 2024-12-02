@@ -50,5 +50,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             throw new NotImplementedException();
         }
+
+        public int TRoomCount()
+        {
+            return _roomDal.RoomCount();
+        }
     }
 }

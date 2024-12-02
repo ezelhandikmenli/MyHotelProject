@@ -56,5 +56,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             return _appUserDal.UserListWithWorkLocations();
         }
+
+        public int TAppUserCount()
+        {
+            return _appUserDal.AppUserCount();
+        }
     }
 }
