@@ -13,9 +13,12 @@ namespace HotelProject.WebApi.Controllers
         private readonly IAppUserService _appUserService;
         private readonly IRoomService _roomService;
 
-        public DashboardWidgetController(IStaffService staffService)
+        public DashboardWidgetController(IStaffService staffService, IBookingService bookingService, IAppUserService appUserService, IRoomService roomService)
         {
             _staffService = staffService;
+            _bookingService = bookingService;
+            _appUserService = appUserService;
+            _roomService = roomService;
         }
         [HttpGet("StaffCount")]
         public IActionResult StaffCount() {

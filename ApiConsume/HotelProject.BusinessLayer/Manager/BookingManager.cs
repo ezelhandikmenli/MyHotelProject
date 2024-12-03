@@ -62,5 +62,10 @@ namespace HotelProject.BusinessLayer.Manager
         {
             return _bookingDal.GetBookingCount();
         }
+
+        public List<Booking> TLast6Bookings()
+        {
+            return _bookingDal.Last6Bookings();
+        }
     }
 }
