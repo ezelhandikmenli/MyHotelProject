@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace HotelProject.WebUI.ViewComponents.Dashboard
 {
-    public class _DashboardLast6Bookings : ViewComponent
+    public class _DashboardLast6Booking : ViewComponent
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public _DashboardLast6Bookings(IHttpClientFactory httpClientFactory)
+        public _DashboardLast6Booking(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
