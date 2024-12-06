@@ -31,13 +31,29 @@ namespace HotelProject.WebUI.Controllers
             }
             return View();
         }
-        public async Task<IActionResult> ApprovedReservation(ApprovedReservationDto approvedReservationDto)
+
+        //public async Task<IActionResult> ApprovedReservation2(int id)
+        //{
+            
+        //    var client = _httpClientFactory.CreateClient();
+            
+            
+        //    var responseMessage = await client.GetAsync($"http://localhost:50560/api/Booking/BokingAproved?id={id}");
+        //    if (responseMessage.IsSuccessStatusCode)
+        //    {
+
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View();
+
+        //}
+        public async Task<IActionResult> ApprovedReservation(int id)
         {
-            approvedReservationDto.Status = "Onaylandı";
+
             var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(approvedReservationDto);
-            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PutAsync("http://localhost:50560/api/Booking/bbbb", stringContent);
+
+
+            var responseMessage = await client.GetAsync($"http://localhost:50560/api/Booking/BokingAproved?id={id}");
             if (responseMessage.IsSuccessStatusCode)
             {
 
@@ -46,5 +62,38 @@ namespace HotelProject.WebUI.Controllers
             return View();
 
         }
+        public async Task<IActionResult> CancelReservation(int id)
+        {
+
+            var client = _httpClientFactory.CreateClient();
+
+
+            var responseMessage = await client.GetAsync($"http://localhost:50560/api/Booking/BokingCancel?id={id}");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+
+                return RedirectToAction("Index");
+            }
+            return View();
+
+        }
+        public async Task<IActionResult> WaitReservation(int id)
+        {
+
+            var client = _httpClientFactory.CreateClient();
+
+
+            var responseMessage = await client.GetAsync($"http://localhost:50560/api/Booking/BokingWait?id={id}");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+
+                return RedirectToAction("Index");
+            }
+            return View();
+
+        }
+
+
+
     }
 }

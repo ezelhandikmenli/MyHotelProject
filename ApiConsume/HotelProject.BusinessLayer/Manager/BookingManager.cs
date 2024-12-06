@@ -67,5 +67,20 @@ namespace HotelProject.BusinessLayer.Manager
         {
             return _bookingDal.Last6Bookings();
         }
+
+        public void TBookingStatusChangeAproved3(int id)
+        {
+            _bookingDal.BookingStatusChangeAproved3(id);
+        }
+
+        public void TBookingStatusChangeCancel(int id)
+        {
+            _bookingDal.BookingStatusChangeCancel(id);
+        }
+
+        public void TBookingStatusChangeWait(int id)
+        {
+            _bookingDal.BookingStatusChangeWait(id);
+        }
     }
 }
