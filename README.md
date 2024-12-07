@@ -5,3 +5,22 @@ Murat Yücedağ hocamın Udemy platformunda bulunan 200+ derslik 24 saatlik içe
 Otel rezervasyon sistemimiz, kullanıcıların otelleri inceleyip rezervasyon yapabileceği, verilerin dinamik olarak güncellendiği, hem kullanıcı hem de yönetici (admin) tarafı olan bir platform olarak tasarlanmıştır. Hotelier bölümü otel hizmetleri, oda detayları, rezervasyon yapma ve iletişim  bilgileri içermektedir. Uygulama tamamıyla API tabanlı geliştirilmiş ve veriler, ASP.NET Core altyapısıyla sağlanan API servisleri üzerinden çekilip işlenmiştir. Veriler Rapid-Api aracılığyla çekilmiştir aynı zamanda kendi api'mız da oluşturulmuştur.
 Hotelier ve admin paneli kullanıcı dostu bir arayüzye tasarlanmıştır. Kullanıcılar, otel ve oda bilgilerini inceleyebilir, rezervasyon işlemleri yapabilir ve  mailleri gerçek zamanlı olarak e-posta adreslerinden mail gönderebilir ve alabilirler.. Yönetici tarafında ise otel bilgileri, oda yönetimi, istatistiksel analizler ve kullanıcı bilgileri yönetilmektedir.
 Kullanıcıların güvenliğini sağlamak için kimlik doğrulama ve yetkilendirme işlemleri için ASP.NET Core Identity kullanılmıştır. Proje, role-based (rol tabanlı) erişim kontrolü ile yönetilmiş olup rol seçimi yapma imkanı verilmiştir. Projenin tüm katmanlarında Dependency Injection ve SOLID prensiplerine uygun bir geliştirme stratejisi izlenmiştir. Proje geliştirilirken API testi sürecinde Swagger ve Postman kullanılmıştır.
+# 📌 Kulanılan Teknolojiler
+- ✅ ASP.NET Core WebAPI
+- ✅ Entity Framework 
+- ✅ JWT Token
+- ✅ Repository Design Pattern
+- ✅ Identity
+- ✅ Fluent Validation
+- ✅ Swagger
+- ✅ DTO (Data Transfer Object)
+- ✅ AutoMapper
+- ✅ RapidAPI
+- ✅ MS-SQL
+- ✅ Rapid API
+- ✅ N-Architecture
+- ✅ Code First
+- ✅ HTML-CSS-Bootstrap
+# 📌  Proje Arayüzü
+   
+  
