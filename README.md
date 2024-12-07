@@ -22,5 +22,34 @@ Kullanıcıların güvenliğini sağlamak için kimlik doğrulama ve yetkilendir
 - ✅ Code First
 - ✅ HTML-CSS-Bootstrap
 # 📌  Proje Arayüzü
+# 🧑‍💻 Kullanıcı Paneli
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h1.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h2.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h3.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h4.png)
+# 🛠️ Admin Paneli
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h5.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h6.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h7.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h8.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h11.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h12.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h13.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h14.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h15.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h16.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h17.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h18.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h19.png)
+# 🗃️ Veritabanı
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h21.png)
+# 📜 Swagger
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h22.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h23.png)
+![banner](https://github.com/ezelhandikmenli/MyHotelProject/blob/main/Frontend/HotelProject.WebUI/wwwroot/img/h24.png)
+
+
+
+
    
   
